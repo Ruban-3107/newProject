@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="AuthenticationPage" action="/get" method="POST">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="userName" >
+        </div>
+        <div>
+            <label for="username">Password</label>
+            <input type="text" id="passId">
+        </div>
+        <div><button id="submitId">Submit</button></div>
+
+    </form>
+
+    <!-- <script type="text/javascript">
+
+        const users = new Map()
+
+        users.set('clement', '12345')
+        users.set('ruban', '67890')
+        users.set('munees', 'abcde')
+        users.set('dhoni', 'lmnop')
+
+        let userList = users.entries()
+        // console.log(users.size)
+        // let c=userList.length
+        // console.log(c)
+
+        // console.log(users.entries())
+        // console.log(users)
+
+        const button = document.getElementById("submitId")
+        button.addEventListener('click', validate)
+
+        // let a=users.keys()
+        // let b=users.values()
+        // console.log(a)
+        // console.log(b)
+
+        // for(let i of users.entries()){
+        //     console.log(i)
+        // }
+        function validate() {
+            let name = document.getElementById('userName').value
+            let password = document.getElementById('passId').value
+            console.log(name)
+            console.log((password))
+
+            for (let i = 0; i <= users.size; i++) {
+                console.log(users.size);
+
+                const v=users.keys();
+                let u=users.values()
+                for(let [key,value] of users){
+                    if (name === key && password === value) {
+                    console.log(" Login Successfull! ");
+                    // console.log(users.keys() + "hi" + users.values());
+                }
+                
+               
+                }
+            
+                    
+                
+                // console.log(v[i])
+                // console.log(u[i])
+
+                
+
+            }
+            ("Not found")
+
+        }
+
+
+    </script> -->
+
+</body>
+
+</html>
